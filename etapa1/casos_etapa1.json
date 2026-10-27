@@ -1,0 +1,13 @@
+[
+  {"nome": "so negativos", "entrada": "5\n-5 -2 -8 -1 -9", "saida": "-1 3 3"},
+  {"nome": "tamanho 1", "entrada": "1\n7", "saida": "7 0 0"},
+  {"nome": "tamanho 1 negativo", "entrada": "1\n-4", "saida": "-4 0 0"},
+  {"nome": "empate 1 -1 1", "entrada": "3\n1 -1 1", "saida": "1 0 0"},
+  {"nome": "empate 2 -1 1", "entrada": "3\n2 -1 1", "saida": "2 0 0"},
+  {"nome": "empate negativos iguais", "entrada": "3\n-2 -2 -2", "saida": "-2 0 0"},
+  {"nome": "tudo positivo", "entrada": "4\n1 2 3 4", "saida": "10 0 3"},
+  {"nome": "zeros", "entrada": "3\n0 0 0", "saida": "0 0 0"},
+  {"nome": "zero entre negativos", "entrada": "3\n-1 0 -1", "saida": "0 1 1"},
+  {"nome": "cruza o meio", "entrada": "4\n-1 5 5 -1", "saida": "10 1 2"},
+  {"nome": "classico", "entrada": "9\n-2 1 -3 4 -1 2 1 -5 4", "saida": "6 3 6"}
+]
