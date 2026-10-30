@@ -1,4 +1,3 @@
-# Etapa 1: subarranjo de soma maxima. Entrada: n e n inteiros. Saida: soma inicio fim (base 0).
 # Desempate: maior soma, depois menor inicio, depois menor fim.
 import sys
 
@@ -21,7 +20,6 @@ def divisao_conquista(v, lo=0, hi=None):
         return (v[lo], lo, lo)
     meio = (lo + hi) // 2
 
-    # melhor intervalo que cruza o meio
     soma, esq, ini = 0, float("-inf"), meio
     for i in range(meio, lo - 1, -1):
         soma += v[i]
